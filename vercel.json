@@ -1,0 +1,11 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/((?!resume\\.pdf|profile-photo\\.jpg|favicon\\.svg|assets/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
